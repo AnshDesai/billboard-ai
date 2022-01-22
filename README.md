@@ -1,2 +1,2 @@
 # BillboardAI
-A Serverless AI bill board branding assistant for your product.
+A Serverless Billboard branding AI assistant for any product.
