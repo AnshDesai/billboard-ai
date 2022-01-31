@@ -4,7 +4,7 @@
 A Serverless AI bill board branding assistant for your product. Using OPENAI API for snippet and keywords recommendation.
 
 ## Architecture
-![picture](Architecture.jpg)
+![picture](architecture.jpg)
 
 ## Frontend
 Frontend is built using Typescript with Next .js/React .js framework and Tailwinds CSS. 
