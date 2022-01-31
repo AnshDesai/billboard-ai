@@ -11,7 +11,7 @@ interface ResultsProps {
       const element = (
         <div
           key={i}
-          className="bg-teal-200 p-1 text-teal-700 px-2 text-sm rounded-md"
+          className="bg-green-200 p-1 text-green-700 px-2 text-sm rounded-md"
         >
           #{props.keywords[i]}
         </div>
@@ -43,8 +43,8 @@ interface ResultsProps {
           {resultSection("Keywords", keywordElementsHolder)}
         </div>
         <button
-          className="bg-gradient-to-r from-teal-400 
-          to-blue-500 disabled:opacity-50 w-full p-2 rounded-md text-lg"
+          className="bg-gradient-to-r from-green-500 
+          to-gray-400 disabled:opacity-50 w-full p-2 rounded-md text-lg"
           onClick={props.onBack}
         >
           Back

@@ -9,7 +9,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>Bill Board AI</title>
-        <meta name="description" content="Get your branding snippet for your product!" />
+        <meta name="description" content="Get your branding snippet for any product!" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Brand_comp />

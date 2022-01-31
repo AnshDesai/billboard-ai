@@ -60,12 +60,12 @@ const Brand_comp: React.FC = () =>{
    );
   }
   const gradientTextStyle =
-  "text-white text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500 font-light w-fit mx-auto";
+  "text-white text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-gray-300 font-light w-fit mx-auto";
 
   return (
   <div className="h-screen flex">
         <div className="max-w-md m-auto p-3">
-            <div className="bg-gray-800 p-5 rounded-md text-white">
+            <div className="bg-gray-600 p-5 rounded-md text-white">
                  <div className="text-center my-5">
                       <Image src={logo} width={82} height={82}/>
                       <h1 className = {gradientTextStyle + " text-3xl font-light"}>Bill Board AI</h1>

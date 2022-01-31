@@ -25,13 +25,11 @@ const Form: React.FC<FormProps> =(props) => {
     }
     return (
     <>
-  <div className="mb-6 text-slate-400">
-        <p>
-          Tell me what your brand is about and I will generate tagline for you.
-        </p>
+  <div className="mb-6 text-center my-6 font-light">
+          Tell me a product and I will generate tagline for you.
       </div>
 
-        <input className="p-2 w-full rounded-md focus:outline-blue-400 focus:outline text-slate-700"
+        <input className="p-2 w-full rounded-md focus:outline-black-500 focus:outline text-slate-700"
             type="text" 
             placeholder="sandwich" 
             value= {props.prompt} 
@@ -45,8 +43,8 @@ const Form: React.FC<FormProps> =(props) => {
             </div>
             </div>
 
-          <button className="bg-gradient-to-r from-teal-400 
-        to-blue-500 disabled:opacity-50 w-full p-2 rounded-md text-lg" onClick={props.onSubmit}
+          <button className="bg-gradient-to-r from-green-500 
+        to-gray-400 disabled:opacity-50 w-full p-2 rounded-md text-lg" onClick={props.onSubmit}
         disabled={props.isLoading || !isPromptValid}>
         Submit
       </button>
